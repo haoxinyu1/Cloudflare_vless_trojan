@@ -213,7 +213,7 @@ CF Trojan：在网页地址栏输入 https:// workers域名 或者 pages域名 �
 
 [ClouDNS永久免费域名最终教程：CF pages vless自定义域名直接部署](https://youtu.be/PN0BLANXh4I)
 
-小白优选IP应用推荐：[CF优选IP解放小白最终方案：一键自动生成美国、香港、欧洲三区优选官方IP，电脑端+手机端通吃](https://youtu.be/6kKIzObEZ2c)
+小白优选IP应用推荐：[CF优选IP解放小白最终方案：一键自动生成美国、香港、欧洲三区优选官方IP，电脑WIN、安卓android、苹果ios多平台一键通用](https://youtu.be/6kKIzObEZ2c)
 
 ---------------------------------
 ---------------------------------
@@ -221,10 +221,16 @@ CF Trojan：在网页地址栏输入 https:// workers域名 或者 pages域名 �
 ---------------------------------
 ## 优选域名、优选官方IP+反代IP一键脚本（在本地网络环境下利用termux或者ish运行）：
 
-安卓建议使用termux官方项目下载客户端：https://github.com/termux/termux-app/releases/tag/v0.118.1
+1、安卓请使用termux官方项目下载客户端：https://github.com/termux/termux-app/releases/tag/v0.118.1
+
+首次安装后，请先安装依赖：```pkg upgrade```
+
+2、苹果手机用户，由于ISH最新版有BUG导致脚本运行卡住，请使用ISH_1.2.2版本：安装包已上传到项目目录，大家自行下载，可配合爱思助手等安装工具直接安装到苹果手机上
+
+首次安装后，请先安装依赖：```apk add curl bash```
 
 -------------------------------------------------------------
-### CF-优选官方IP (默认美、亚、欧三地区 强烈推荐！！！)，安卓手机平板专用：
+### CF-优选官方IP (默认美、亚、欧三地区 强烈推荐！！！)，安卓苹果手机平板专用：
 ```
 curl -sSL https://ghp.ci/https://raw.githubusercontent.com/yonggekkk/Cloudflare_vless_trojan/main/cf/cf.sh -o cf.sh && chmod +x cf.sh && bash cf.sh
 ```
